@@ -15,7 +15,6 @@ html {
 
 a {
 	text-decoration: none;
-	color: unset;
 }
 
 a :hover {
@@ -31,8 +30,8 @@ a :hover {
 
 header h1 {
 	font-family: Montserrat Subrayada;
-	font-color: #0075F2;
-	background-color: #406EA7;
+	color: #0075F2;
+	background-color: #7F675B;
 	position: fixed;
 	z-index: 5;
 	padding: 10px;
@@ -41,8 +40,8 @@ header h1 {
 
 header h1 :hover {
 	font-family: Montserrat Subrayada;
-	font-color: #FFEAEE;
-	background-color: #7F675B;
+	color: #406EA7;
+	background-color: #FFEAEE;
 	position: fixed;
 	z-index: 5;
 	padding: 10px;
