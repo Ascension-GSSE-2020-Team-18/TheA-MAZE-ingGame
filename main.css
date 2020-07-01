@@ -1,20 +1,37 @@
 /* Here is where we will add stylization to the html file. 
 This way we can link all of the html files to this document so that they will be similar in format. */
 @font-face {
-  font-family: 'Montserrat Subrayada';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: local('MontserratSubrayada-Bold'), url(https://fonts.gstatic.com/s/montserratsubrayada/v9/U9MM6c-o9H7PgjlTHThBnNHGVUORwteQQHe3TfMRiXk.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+	font-family: 'Montserrat Subrayada';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: local('MontserratSubrayada-Bold'), url(https://fonts.gstatic.com/s/montserratsubrayada/v9/U9MM6c-o9H7PgjlTHThBnNHGVUORwteQQHe3TfMRiXk.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+html {
+	background-color: #00C8E6;
 }
 
 .header-box {
 	width: fit;
-	background-color: #00C8E6;
+	height: 100px;
+	background-color: #406EA7;
+	position: fixed;
+	z-index: 3;
 }
 
 header h1 {
   font-family: Montserrat Subrayada;
+	font-color: #7F675B;
+	position: fixed;
+	z-index: 5;
+}
+
+.header-box :hover {
+	background-color: #0075F2;
+}
+
+header h1 :hover {
 	font-color: #FFEAEE;
 }
