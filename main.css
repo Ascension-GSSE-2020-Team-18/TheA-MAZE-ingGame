@@ -16,22 +16,20 @@ html {
 .header-box {
 	width: fit;
 	height: 100px;
-	background-color: #406EA7;
 	position: fixed;
 	z-index: 3;
 }
 
 header h1 {
   font-family: Montserrat Subrayada;
-	font-color: #7F675B;
+	font-color: #0075F2;
+	background-color: #406EA7;
 	position: fixed;
 	z-index: 5;
-}
-
-.header-box :hover {
-	background-color: #0075F2;
+	border-radius: 10%;
 }
 
 header h1 :hover {
-	font-color: #FFEAEE;
+	font-color: #7F675B;
+	background-color: #FFEAEE;
 }
