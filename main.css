@@ -41,21 +41,20 @@ header {
 }
 
 header h1 {
-	display: inline-block;
-	font-family: Montserrat Subrayada;
-	font-size: 30px;
-	color: #FFEAEE;
-	background-color: #0075F2;
-	z-index: 5;
-	padding: 10px;
-	border-radius: 20px;
-	margin: 40px 0px 0px 40px;
+	
 }
 
 header h1 :hover {
+	display: inline-block;
+	font-family: Montserrat Subrayada;
+	font-size: 30px;
 	color: #0075F2;
 	background-color: #FFEAEE;
+	z-index: 5;
+	padding: 10px;
 	border: 1px, solid, #0075F2;
+	border-radius: 20px;
+	margin: 40px 0px 0px 40px;
 }
 
 header #gameSearch {
