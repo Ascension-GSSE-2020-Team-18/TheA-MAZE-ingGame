@@ -53,6 +53,7 @@ header h1 {
 }
 
 header h1 :hover {
+	display: inline-block;
 	color: #0075F2;
 	background-color: #FFEAEE;
 	padding: 10px;
@@ -61,7 +62,7 @@ header h1 :hover {
 	margin: 40px 0px 0px 40px;
 }
 
-#gameSearch {
+header #gameSearch {
 	display: inline-block;
 	font-family: Varela Round;
 	box-sizing: border-box;
