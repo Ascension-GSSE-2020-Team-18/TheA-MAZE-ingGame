@@ -37,8 +37,9 @@ header {
 	position: fixed;
 	background-color: #096B72;
 	grid-template-columns: 1fr 200px 2fr;
+	grid-template-rows: 100px;
 	z-index: 3;
-	grid-template-areas: "title empty searchBar"
+	grid-template-areas: "title empty search"
 }
 
 header h1 {
@@ -64,7 +65,7 @@ header h1 :hover {
 
 #gameSearch {
 	font-family: Varela Round;
-	grid-area: searchBar;
+	grid-area: search;
 	align-self: end;
 	box-sizing: border-box;
 	color: #101b06;
