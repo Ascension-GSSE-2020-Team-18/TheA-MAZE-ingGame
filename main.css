@@ -60,6 +60,7 @@ header h1 :hover {
 
 header #gameSearch {
 	display: inline-block;
+	justify: end;
 	font-family: Varela Round;
 	box-sizing: border-box;
 	color: #101b06;
