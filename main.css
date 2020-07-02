@@ -33,7 +33,7 @@ header {
 	width: fit;
 	height: 100px;
 	position: fixed;
-	background-color: #406EA7;
+	background-color: #096B72;
 	grid-template-columns: 1fr 200px 2fr;
 	z-index: 3;
 	grid-template-areas: "title empty searchBar"
@@ -41,9 +41,9 @@ header {
 
 header h1 {
 	font-family: Montserrat Subrayada;
+	grid-area: title;
 	color: #FFEAEE;
 	background-color: #0075F2;
-	position: fixed;
 	z-index: 5;
 	padding: 10px;
 	border-radius: 20px;
@@ -53,9 +53,19 @@ header h1 :hover {
 	font-family: Montserrat Subrayada;
 	color: #0075F2;
 	background-color: #FFEAEE;
-	position: fixed;
 	z-index: 5;
 	padding: 10px;
 	border: 1px, solid, #0075F2;
 	border-radius: 20px;
+}
+
+#gameSearch {
+  font-family: Varela Round;
+	color: #101b06;
+	width: 100px;
+	height: 40px;
+	padding: 10px;
+	border: 1px solid #406EA7;
+	border-radius: 5px;
+	margin: 40px 50px 10px 100px;
 }
