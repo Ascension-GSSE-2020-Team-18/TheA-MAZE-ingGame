@@ -28,12 +28,15 @@ a {
 	cursor: default;
 }
 
-.header-box {
+header {
+	disply: grid;
 	width: fit;
 	height: 100px;
 	position: fixed;
-	z-index: 3;
 	background-color: #406EA7;
+	grid-template-columns: 1fr 200px 2fr;
+	z-index: 3;
+	grid-template-areas: "title empty searchBar"
 }
 
 header h1 {
