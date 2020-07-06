@@ -36,6 +36,8 @@ header {
 	background-color: #096B72;
 	text-align: center;
 	z-index: 3;
+	grid-template-rows: fit 1fr fit;
+	grid-template-areas: "Ascension . Search"
 }
 
 header h1 {
@@ -47,7 +49,8 @@ header h1 {
 	padding: 10px;
 	border: 1px, solid, #0075F2;
 	border-radius: 5px;
-	margin: 5px 0 0 100px;
+	margin: 5px;
+	grid-area: Ascension;
 }
 
 header h1 a {
@@ -73,7 +76,8 @@ header #gameSearch {
 	padding: 10px;
 	border: 1px solid #406EA7;
 	border-radius: 5px;
-	margin-top: 0;
+	margin: 5px;
+	grid-area: Search;
 }
 
 header.headerSpace {
