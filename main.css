@@ -23,9 +23,6 @@ html {
 	
 }
 
-a {
-}
-
 header {
 	disply: grid;
 	width: 100%;
@@ -36,8 +33,9 @@ header {
 	background-color: #096B72;
 	text-align: center;
 	z-index: 3;
-	grid-template-rows: 300px 1fr 300px;
-	grid-template-areas: "Ascension Space Search"
+	grid-template-rows: fit fit;
+	grid-template-areas: "Ascension Search";
+	grid-gap: 0 600px;
 }
 
 header h1 {
@@ -79,8 +77,3 @@ header #gameSearch {
 	margin: 5px;
 	grid-area: Search;
 }
-
-header.headerSpace {
-	grid-area: Space;
-}
-	
