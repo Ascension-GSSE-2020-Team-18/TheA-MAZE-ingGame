@@ -37,7 +37,7 @@ header {
 	text-align: center;
 	z-index: 3;
 	grid-template-rows: fit minmax(100px, 1000px) fit;
-	grid-template-areas: "Ascension . Search"
+	grid-template-areas: "Ascension Space Search"
 }
 
 header h1 {
@@ -81,6 +81,6 @@ header #gameSearch {
 }
 
 header.headerSpace {
-	
+	grid-area: Space;
 }
 	
