@@ -34,7 +34,7 @@ header {
 	text-align: center;
 	z-index: 3;
 	grid-template-rows: 10vw 80vw 10vw;
-	grid-template-areas: "Ascension Gap Search";
+	grid-template-areas: "Ascension . Search";
 }
 
 header h1 {
