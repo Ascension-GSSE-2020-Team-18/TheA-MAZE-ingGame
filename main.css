@@ -33,8 +33,8 @@ header {
 	background-color: #096B72;
 	text-align: center;
 	z-index: 3;
-	grid-template-rows: 300px 400px;
-	grid-template-areas: "Ascension Search";
+	grid-template-rows: fit 1fr fit;
+	grid-template-areas: "Ascension . Search";
 }
 
 header h1 {
