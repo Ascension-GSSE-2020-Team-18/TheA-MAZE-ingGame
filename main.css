@@ -33,7 +33,7 @@ header {
 	background-color: #096B72;
 	text-align: center;
 	z-index: 3;
-	grid-template-columns: 10vw 80vw 10vw;
+	grid-template-rows: 10vw 80vw 10vw;
 	grid-template-areas: "Ascension Gap Search";
 }
 
