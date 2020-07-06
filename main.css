@@ -37,6 +37,7 @@ header {
 	margin: -8px;
 	position: fixed;
 	background-color: #096B72;
+	text-align: center;
 	z-index: 3;
 }
 
@@ -49,7 +50,7 @@ header h1 {
 	padding: 10px;
 	border: 1px, solid, #0075F2;
 	border-radius: 5px;
-	margin: 0;
+	margin: 5px 0 0 100px;
 }
 
 header h1 a {
