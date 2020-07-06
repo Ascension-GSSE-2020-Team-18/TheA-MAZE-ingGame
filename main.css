@@ -33,7 +33,7 @@ header {
 	background-color: #096B72;
 	text-align: center;
 	z-index: 3;
-	grid-template-columns: fit minmax(100px, 1000px) fit;
+	grid-template-columns: 10vw 80vw 10vw;
 	grid-template-areas: "Ascension Gap Search";
 }
 
@@ -74,9 +74,5 @@ header #gameSearch {
 	border-radius: 5px;
 	margin: 5px;
 	grid-area: Search;
-}
-
-header .headerSpace {
-	grid-area: Gap;
 }
 	
