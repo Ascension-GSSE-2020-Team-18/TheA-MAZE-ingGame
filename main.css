@@ -40,19 +40,18 @@ header {
 header h1 {
 	display: inline-block;
 	font-family: Montserrat Subrayada;
-	color: #FFEAEE;
-	background-color: #0075F2;
 	z-index: 5;
-	padding: 10px;
-	border: 1px, solid, #0075F2;
-	border-radius: 5px;
-	margin: 5px;
 	grid-area: Ascension;
 }
 
 header h1 a {
+	color: #FFEAEE;
+	background-color: #0075F2;
+	padding: 10px;
+	border: 1px, solid, #0075F2;
+	border-radius: 5px;
+	margin: 5px;
 	text-decoration: none;
-	color: unset;
 	cursor: default;
 }
 
