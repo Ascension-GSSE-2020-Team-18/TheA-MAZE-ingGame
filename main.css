@@ -24,13 +24,10 @@ html {
 }
 
 a {
-	text-decoration: none;
-	color: unset;
-	cursor: default;
 }
 
 header {
-	disply: block;
+	disply: grid;
 	width: 100%;
 	height: 100px;
 	border: 0px;
@@ -54,7 +51,9 @@ header h1 {
 }
 
 header h1 a {
-	
+	text-decoration: none;
+	color: unset;
+	cursor: default;
 }
 
 header h1 a :hover {
@@ -76,3 +75,8 @@ header #gameSearch {
 	border-radius: 5px;
 	margin-top: 0;
 }
+
+header.headerSpace {
+	
+}
+	
