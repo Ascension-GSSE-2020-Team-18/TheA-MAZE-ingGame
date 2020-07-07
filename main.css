@@ -37,7 +37,7 @@ header {
 
 header h1 {
 	display: inline-block;
-	width: fit;
+	width: 15%;
 	font-family: Montserrat Subrayada;
 	z-index: 5;
 	float: left;
