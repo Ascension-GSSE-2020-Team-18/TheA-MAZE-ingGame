@@ -37,6 +37,7 @@ header {
 
 header h1 {
 	display: inline-block;
+	width: fit;
 	font-family: Montserrat Subrayada;
 	z-index: 5;
 	float: left;
@@ -70,6 +71,7 @@ header #gameSearch {
 	padding: 10px;
 	border: 1px solid #406EA7;
 	border-radius: 5px;
+	margin-top: 15px;
 	margin-right: 5%;
 	float: right;
 }
