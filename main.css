@@ -76,6 +76,8 @@ header #gameSearch {
 	float: right;
 }
 
+main {display: block;}
+
 main h2 {
 	font-family: Varela Round;
 	color: #7F675B;
