@@ -13,47 +13,7 @@
 		</header>
 		<main>
 			<h2>The Maze</h2>
-			<script>
-				var drawMaze = function() {  
-
-					strokeWeight(5);
-					line(0,43,133,43);
-					line(133,187,133,44);
-					line(173,0,173,145);
-					line(207,146,176,146);
-					line(207,30,207,146);
-					line(254,32,252,148);
-					line(133,190,295,190);
-					line(252,32,406,35);
-					line(295,190,295,78);
-					line(295,78,354,78);
-					line(354,78,354,191);
-					line(327,219,327,120);
-					line(90,221,400,224);
-					line(90,221,90,93);
-					line(90,221,400,224);
-					line(42,48,40,356);
-					line(44,269,338,271);
-					line(90,221,400,224);
-					line(92,411,92,321);
-					line(141,365,142,270);
-					line(141,368,340,366);
-					line(191,317,336,319);
-					line(341,319,342,366);
-					noStroke();
-					fill(0, 255, 13);
-					rect(12,5,54,30);
-					fill(255, 0, 0);
-					rect(1,58,34,46);
-				};
-
-				draw = function() {
-
-					drawMaze();
-					fill(18, 50, 179);
-					ellipse(mouseX,mouseY,5,5); 
-				};
-			</script>
+			<script src="./main.js"></script>
 			<h4>Description:</h4>
 			<p>Welcome to the Maze! Starting from the green box, find your way to the end goal, (the red box). Try to avoid passing over the lines. </p>
 		</main>
