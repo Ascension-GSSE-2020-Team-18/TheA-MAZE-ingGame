@@ -76,6 +76,15 @@ header #gameSearch {
 	float: right;
 }
 
+main a {
+	align: center;
+	width: 80%;
+	padding: 5%;
+	border: 5px, solid, #096B72;
+	border-radius: 1px;
+	margin-top: 120px;
+}
+
 main h2 {
 	display: block;
 	font-family: Varela Round;
